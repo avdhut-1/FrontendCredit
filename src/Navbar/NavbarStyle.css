@@ -1,0 +1,44 @@
+/* Custom CSS for Navbar */
+.navbar {
+    background-color: #3498db; /* Change to your preferred background color */
+}
+
+.navbar-brand {
+    color: #ffffff; /* Change to your preferred text color */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* Change to your preferred text color */
+}
+
+.navbar-toggler-icon {
+    color: #ffffff; /* Change to your preferred icon color */
+}
+
+/* Style for Services dropdown */
+.navbar-nav .dropdown-menu {
+    background-color: #3498db; /* Change to your preferred background color */
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-nav .dropdown-menu a {
+    color: #ffffff; /* Change to your preferred text color */
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-nav .dropdown-menu a:hover {
+    background-color: #2980b9; /* Change to your preferred hover background color */
+    color: #ffffff; /* Change to your preferred hover text color */
+}
+
+/* Adjust the dropdown arrow color */
+.navbar-nav .dropdown-toggle::after {
+    border-top-color: #ffffff; /* Change to your preferred arrow color */
+}
+
+/* Style for active dropdown item */
+.navbar-nav .dropdown-item.active {
+    background-color: #2980b9; /* Change to your preferred active background color */
+}
